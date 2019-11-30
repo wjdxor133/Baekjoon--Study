@@ -1,0 +1,6 @@
+str = input('문자열 입력 >> ')
+length = len(str)
+print('참조할 첨자 : 0 ~ %d' % int(length-1))
+index = int(input('참조할 첨자 입력 >> '))
+print('문자열:%s, 길이 : %d' % (str,int(length)))
+print('참조 문자 : %c' % str[index])
